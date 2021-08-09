@@ -3,10 +3,11 @@
 {% block content %}
 <ul class="movie-list">
     <li>
-        Page Not Found - 404
+        不要乱点，点击 -> GO Back 返回去！
         <span class="float-right">
             <a href="{{ url_for('index') }}">Go Back</a>
         </span>
     </li>
 </ul>
+    <img alt="Walking Totoro" class="totoro" src="{{ url_for('static', filename='6.png') }}" title="to~to~ro~">
 {% endblock %}
