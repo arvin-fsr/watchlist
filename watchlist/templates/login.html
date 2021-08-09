@@ -2,6 +2,7 @@
 
 {% block content %}
 <h3>Login</h3>
+    <h4>很温馨的提示：要账号密码找我！</h4>
 <form method="post">
     Username<br>
     <input type="text" name="username" required><br><br>
@@ -10,4 +11,5 @@
     <input type="password" name="password" required><br><br>
     <input class="btn" type="submit" name="submit" value="Submit">
 </form>
+    <img alt="Walking Totoro" class="totoro" src="{{ url_for('static', filename='images/4.png') }}" title="to~to~ro~">
 {% endblock %}
